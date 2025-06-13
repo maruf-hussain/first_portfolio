@@ -17,5 +17,5 @@ def testimonial(request):
     return render(request,'testimonial.html')
 
 #Hire Page............................
-def testimonial(request):
-    return render(request,'testimonial.html')
+def hire(request):
+    return render(request,'hire.html')

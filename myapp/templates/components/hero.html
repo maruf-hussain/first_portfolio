@@ -1,0 +1,21 @@
+<!-- templates/home.html -->
+
+
+
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4">Welcome to My Django Site</h1>
+    <p class="lead">Build powerful web applications with Django and Bootstrap.</p>
+    <a href="{% url 'about' %}" class="btn btn-light btn-lg mt-3">Learn More</a>
+  </div>
+</section>
+
+<!-- More content -->
+<div class="container mt-5">
+  <h2>Features</h2>
+  <p>Here’s what makes this site great...</p>
+</div>
+{% endblock %}
